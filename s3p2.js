@@ -48,3 +48,24 @@ function newLink () {
     }
 }
 //newLink ()
+
+function noImg () {
+    let myImg = document.querySelectorAll ('img')
+    for (let i=0; i < myImg.length; i++) {
+        myImg [i].classList.toggle ('disapper')
+    }
+}
+noImg ()
+
+let colori = ['red', 'blue', 'yellow', 'green', 'pink', 'white']
+
+function newColor() {
+    let myColor = document.querySelectorAll('h3')
+
+    let randomIndex = Math.floor(Math.random() * colori.length)
+
+    let color = colori [0]
+    for (let i=0; i <myColor.length; i++) {
+
+    }
+}
